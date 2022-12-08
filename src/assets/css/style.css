@@ -1,0 +1,383 @@
+.all-border {
+  width: 100%;
+  border: 1px solid #000000;
+  margin-top: 57.35px;
+}
+
+/* main app start */
+body {
+  font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+
+.main-app {
+  width: calc(100% - 240px);
+  margin: auto;
+}
+/* main app end */
+
+/* header start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 35px;
+}
+
+.header-bar-icon {
+  display: none !important;
+  font-size: 24px;
+  width: 25px;
+  height: 25px;
+  background: rgba(54, 41, 183, 0.09);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-menu-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.header-logo {
+  margin-top: 14.36px;
+}
+
+.header-social {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/* header end */
+
+/* about start */
+.about {
+  margin-top: 20.24px;
+  position: relative;
+}
+.about-intro {
+  text-align: center;
+}
+.about-intro-title {
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 120%;
+  color: #000000;
+}
+.about-intro-des {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 18.67px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 63px;
+  gap: 50px;
+}
+.about-info-bio {
+  width: 25%;
+}
+.about-info-bio-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ef3c5a;
+  margin-bottom: 20px;
+}
+.about-info-bio-des {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+}
+.about-info-bio-second {
+  margin: 36px 0;
+}
+.about-info-me {
+  width: 40%;
+}
+.about-info-count {
+  width: 25%;
+  text-align: end;
+}
+.about-info-count-second {
+  margin: 47px 0;
+}
+.about-info-count-number {
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 120%;
+  color: #000000;
+}
+.aboutbglogo1 {
+  width: 371px;
+  height: 491px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+}
+.aboutbglogo2 {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 185px;
+  height: 182px;
+}
+/* about end */
+
+/* advantage start */
+.advantage {
+  text-align: center;
+  margin-top: 100.35px;
+  position: relative;
+}
+.advantage-bg {
+  position: absolute;
+  top: -100px;
+  left: 250px;
+}
+.advantage__title {
+  font-size: 39px;
+}
+.advantage-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18.55px;
+  margin-top: 58.43px;
+}
+.advantage-item-figma {
+  width: 185px;
+  height: 263px;
+  background-image: url("../images/figma.svg");
+  background-position: center;
+  background-size: cover;
+}
+.advantage-item-figma__sketch {
+  background-image: url("../images/sketch.svg");
+}
+.advantage-item-figma__adobexd {
+  background-image: url("../images/adobexd.svg");
+}
+.advantage-item-figma__java {
+  background-image: url("../images/java.svg");
+}
+.advantage-item-figma__bootstrap {
+  background-image: url("../images/bootstrap.svg");
+}
+.advantage-item-figma__html {
+  background-image: url("../images/html.svg");
+}
+.advantage-item-percentage {
+  padding-top: 174.16px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 120%;
+  color: #000000;
+}
+.advantage-items-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 20px;
+}
+.all-border__advantage {
+  margin-top: 78.44px;
+}
+/* advantage end */
+
+/* Edication & Experience start */
+.eduexp {
+  margin-top: 100.35px;
+}
+.eduexp__title {
+  font-size: 39px;
+  text-align: center;
+}
+.eduexp-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 72.27px;
+  position: relative;
+}
+.eduexp-first-year {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 29.44px;
+}
+.eduexp-first-info {
+  margin-bottom: 19.42px;
+}
+.eduexp-first-info-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #2f2649;
+}
+.eduexp-second-info-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+  margin-top: 13.17px;
+}
+.eduexp-bg {
+  position: absolute;
+  right: -130px;
+  top: -215px;
+}
+.all-border__eduexp {
+  margin-top: 91.52px;
+}
+
+/* Edication & Experience end */
+
+/* latest project start */
+.lp {
+  margin-top: 100.59px;
+  position: relative;
+}
+.lp-bg {
+  position: absolute;
+  top: -92px;
+  left: -125px;
+}
+.lp__title {
+  text-align: center;
+  font-size: 39px;
+}
+.lp-items {
+  margin-top: 54.58px;
+}
+.lp-item-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+  margin-top: 22.39px;
+  border: 10px solid #fff;
+}
+.lp-item-title__sec {
+  color: rgba(0, 0, 0, 0.5);
+}
+.lp-item-title__third {
+  color: rgba(0, 0, 0, 0.5);
+}
+.lp-item-des {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #ef3c5a;
+  margin-top: 8.75px;
+}
+.lp-item-des__sec {
+  color: rgba(0, 0, 0, 0.5);
+}
+.lp-item-des__third {
+  color: rgba(0, 0, 0, 0.45);
+}
+.slick-dots {
+  position: absolute;
+  bottom: -74px;
+}
+.slick-dots li button:before {
+  background: #d9d9d9;
+  font-size: 13px;
+  background: transparent;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #ef3c5a;
+}
+
+.all-border__lp {
+  margin-top: 150.49px;
+}
+/* latest project end */
+
+/* testimonial start */
+.testimonial {
+  margin: 87.53px auto 0 auto;
+  text-align: center;
+  width: 641.56px;
+  position: relative;
+}
+.testimonial-bg {
+  position: absolute;
+  top: -55px;
+  right: -95px;
+}
+
+.testimonial-items-comment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+}
+.testimonial-items-author {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #ef3c5a;
+  margin-top: 34.17px;
+}
+.testimonial-items-role {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 11px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.2);
+}
+.slick-prev {
+  left: -100px;
+}
+.slick-next {
+  right: -100px;
+}
+.all-border__testimonial {
+  margin-top: 97.53px;
+}
+/* testimonial end */
+
+/* footer start */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 161.96px;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  color: #000000;
+}
+/* footer end */

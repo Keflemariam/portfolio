@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1050px) {
+  .eduexp-items {
+    flex-wrap: wrap;
+  }
+  .eduexp-bg {
+    right: 0px;
+    top: -215px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .main-app {
+    width: calc(100% - 50px);
+    margin: auto;
+  }
+  .header-menu {
+    display: none !important;
+  }
+  .header-bar-icon {
+    display: block !important;
+  }
+  .nav-mobile {
+    display: grid;
+    gap: 30px;
+    border-top: 1px solid #efefef;
+    padding: 10px 0;
+  }
+  .about-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-info-bio {
+    width: 100%;
+    text-align: center;
+  }
+  .about-info-bio-title {
+    margin-bottom: 5px;
+  }
+  .about-info-bio-second {
+    margin: 20px 0;
+  }
+  .about-info-count-second {
+    margin: 20px 0;
+  }
+  .about-info-me {
+    width: 50%;
+  }
+  .about-info-count {
+    width: 100%;
+    text-align: center;
+  }
+  .advantage-bg {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+  }
+  .testimonial {
+    margin: 87.53px auto 0 auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutbglogo1 {
+    width: 171px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .aboutbglogo2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .advantage-items {
+    justify-content: center;
+  }
+}
