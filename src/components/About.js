@@ -32,7 +32,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p className="about-info-bio-title">Services -</p>
+            <p className="about-info-bio-title">Services -git</p>
             <p className="about-info-bio-des">
               Product Development, Implement Solutions
             </p>
