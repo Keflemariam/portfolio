@@ -50,32 +50,32 @@ const LatestProject = () => {
         <div>
           <img src={Project1} className="lp-pro-img" alt="" />
           <p className="lp-item-title">Web Design</p>
-          <p className="lp-item-des">mebrat.net</p>
+          <p className="lp-item-des">Supro Online Store</p>
         </div>
         <div>
           <img src={Project2} className="lp-pro-img" alt="" />
-          <p className="lp-item-title lp-item-title__sec">Mobile app</p>
-          <p className="lp-item-des lp-item-des__sec">Mezmure Dawit</p>
+          <p className="lp-item-title lp-item-title__sec">Illustration</p>
+          <p className="lp-item-des lp-item-des__sec">LW Poster</p>
         </div>
         <div>
           <img src={Project3} className="lp-pro-img" alt="" />
-          <p className="lp-item-title lp-item-title__third">Portfolio</p>
-          <p className="lp-item-des lp-item-des__third">my website</p>
+          <p className="lp-item-title lp-item-title__third">Advertising</p>
+          <p className="lp-item-des lp-item-des__third">Films & Art Festival</p>
         </div>
         <div>
           <img src={Project1} className="lp-pro-img" alt="" />
           <p className="lp-item-title">Web Design</p>
-          <p className="lp-item-des">Mebrat.net</p>
+          <p className="lp-item-des">Supro Online Store</p>
         </div>
         <div>
           <img src={Project2} className="lp-pro-img" alt="" />
-          <p className="lp-item-title lp-item-title__sec">Mobile app</p>
-          <p className="lp-item-des lp-item-des__sec">Mezmure Dawit</p>
+          <p className="lp-item-title lp-item-title__sec">Illustration</p>
+          <p className="lp-item-des lp-item-des__sec">LW Poster</p>
         </div>
         <div>
           <img src={Project3} className="lp-pro-img" alt="" />
-          <p className="lp-item-title lp-item-title__third">Portfolio</p>
-          <p className="lp-item-des lp-item-des__third">my website</p>
+          <p className="lp-item-title lp-item-title__third">Advertising</p>
+          <p className="lp-item-des lp-item-des__third">Films & Art Festival</p>
         </div>
       </Slider>
       <p className="all-border all-border__lp"></p>

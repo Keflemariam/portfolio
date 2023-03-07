@@ -7,61 +7,67 @@ const EduExp = () => {
       <p className="about-intro-title eduexp__title">Education & Experience</p>
       <div className="eduexp-items">
         <div>
-          <p className="eduexp-first-year">2002</p>
+          <p className="eduexp-first-year">2014</p>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Bachelor Degree - Computer Science</p>
-            <p className="eduexp-second-info-title">Addis Ababa University</p>
+            <p className="eduexp-first-info-title">Bachelor Degree of Design</p>
+            <p className="eduexp-second-info-title">RMIT University,</p>
           </div>
           <div>
-            <p className="eduexp-first-info-title">Certified Scrum Master</p>
-            <p className="eduexp-second-info-title">Scrum Alliance</p>
+            <p className="eduexp-first-info-title">UI/UX Design Certificate</p>
+            <p className="eduexp-second-info-title">
+              {" "}
+              University Of Houston,US
+            </p>
           </div>
         </div>
         <div>
-          <p className="eduexp-first-year">2002-2007</p>
+          <p className="eduexp-first-year">2015-2019</p>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Programmer Analyst</p>
-            <p className="eduexp-second-info-title">Online Systems House, Ethiopia</p>
+            <p className="eduexp-first-info-title">Design Internship</p>
+            <p className="eduexp-second-info-title">CMC Corporation, UK</p>
           </div>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">IT Expert</p>
-            <p className="eduexp-second-info-title">CIDA-WHIST Project, Ethiopia</p>
+            <p className="eduexp-first-info-title">Graphic Designer</p>
+            <p className="eduexp-second-info-title">Tripadvisor Ltd, UK</p>
           </div>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Programmer</p>
-            <p className="eduexp-second-info-title">GTZ-PRHE Project</p>
+            <p className="eduexp-first-info-title">Leader Graphic Design</p>
+            <p className="eduexp-second-info-title">Tripadvisor Ltd, UK</p>
           </div>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Programmer</p>
+            <p className="eduexp-first-info-title">Web Designer</p>
             <p className="eduexp-second-info-title">Freelancer</p>
           </div>
-          
+          <div className="eduexp-first-info">
+            <p className="eduexp-first-info-title">Web Designer/ Author</p>
+            <p className="eduexp-second-info-title">Envato Market</p>
+          </div>
         </div>
         <div>
-          <p className="eduexp-first-year">2007-2022</p>
+          <p className="eduexp-first-year">2015-2019</p>
           <div className="eduexp-first-info">
             <p className="eduexp-first-info-title">
-              Computer Management Specialist
+              Product Designe Management
             </p>
-            <p className="eduexp-second-info-title">U.S. Department of State, US Embassy, BDSC</p>
+            <p className="eduexp-second-info-title">Dribble LLC, US</p>
           </div>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Computer Management Specialist</p>
-            <p className="eduexp-second-info-title">U.S. Embassy, Baghdad</p>
+            <p className="eduexp-first-info-title">Art Director / Co-Founder</p>
+            <p className="eduexp-second-info-title">Spotify</p>
           </div>
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Computer Management Assistant</p>
-            <p className="eduexp-second-info-title">U.S. Embassy, Addis Ababa</p>
+            <p className="eduexp-first-info-title">Founder</p>
+            <p className="eduexp-second-info-title">IDesign Magazine</p>
           </div>
-          <p className="eduexp-first-year">2014-2015</p>
+          {/* <p className="eduexp-first-year">2014-2015</p> */}
           <div className="eduexp-first-info">
-            <p className="eduexp-first-info-title">Lead IT Operations</p>
+            <p className="eduexp-first-info-title">Author of The Book</p>
             <p className="eduexp-second-info-title">
-                  SoftLayer, an IBM Company, Paris, France.
+              Work for Money, Design for love
             </p>
           </div>
         </div>
-        <img src={EduExpBG} className="eduexp-bg" alt=""/>
+        <img src={EduExpBG} className="eduexp-bg" alt="" />
       </div>
       <p className="all-border all-border__eduexp"></p>
     </div>

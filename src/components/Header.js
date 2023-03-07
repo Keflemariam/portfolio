@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/images/logo.svg";
-import Instagram from "../assets/images/instagram.svg";
+import Linkedin from "../assets/images/linkedin.svg";
 import Twitter from "../assets/images/twitter.svg";
 import Youtube from "../assets/images/youtube.svg";
 
@@ -33,9 +33,15 @@ const Header = () => {
             }}
           ></i>
         )}
-        <img src={Logo} className="header-logo" alt=""/>
+        <img src={Logo} className="header-logo" alt="" />
         <div className="header-social">
-          <img alt="" src={Instagram} />
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/keflemariam-gebretsadike-1b561763"
+            rel="noreferrer"
+          >
+            <img alt="" src={Linkedin} />
+          </a>
           <img alt="" src={Twitter} />
           <img alt="" src={Youtube} />
         </div>

@@ -55,6 +55,7 @@ body {
   display: flex;
   gap: 16px;
   cursor: pointer;
+  align-items: center;
 }
 
 .nav-mobile {
@@ -110,9 +111,10 @@ body {
 .about-info-bio-second {
   margin: 36px 0;
 }
-.about-info-me {
-  width: 40%;
+.about-info-me-img{
+  width: 100%;
 }
+
 .about-info-count {
   width: 25%;
   text-align: end;
@@ -165,29 +167,43 @@ body {
   margin-top: 58.43px;
 }
 .advantage-item-figma {
-  width: 185px;
-  height: 263px;
-  background-image: url("../images/figma.svg");
+  background-image: url("../images/cloud-computing.svg");
+  width: 246px;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 .advantage-item-figma__sketch {
-  background-image: url("../images/sketch.svg");
+  background-image: url("../images/net.svg");
+  width: 143px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .advantage-item-figma__adobexd {
-  background-image: url("../images/adobexd.svg");
+  background-image: url("../images/sql.svg");
+  width: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .advantage-item-figma__java {
-  background-image: url("../images/java.svg");
+  background-image: url("../images/js.svg");
+  width: 137px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .advantage-item-figma__bootstrap {
-  background-image: url("../images/bootstrap.svg");
+  background-image: url("../images/agile.svg");
+  width: 137px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .advantage-item-figma__html {
   background-image: url("../images/html.svg");
+  width: 137px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .advantage-item-percentage {
-  padding-top: 174.16px;
+  padding-top: 220px;
   font-weight: 700;
   font-size: 31px;
   line-height: 120%;
@@ -198,7 +214,7 @@ body {
   font-size: 20px;
   line-height: 120%;
   color: #000000;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 .all-border__advantage {
   margin-top: 78.44px;
