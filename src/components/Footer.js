@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <p className="footer-text">
-        @2021 Keflemariamgebretsadike. ALL RIGHT RESERVED
+        @2022 Keflemariam Gebretsadike. ALL RIGHT RESERVED
       </p>
-      <p className="footer-text">HELLO@KEFLEMARIAM.COM</p>
+      <p className="footer-text">Keflemariam@outlook.com</p>
       <div className="header-social">
         <a
           target="_blank"

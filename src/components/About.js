@@ -17,22 +17,22 @@ const About = () => {
           <div>
             <p className="about-info-bio-title">Biography</p>
             <p className="about-info-bio-des">
-              Work for money and design for love! I’m Keflemariam Gebretsadike,
-              A Technology consultant/ Software developer
+              Hi, I’m Keflemariam Gebretsadike, a technology enthusiast and
+              Full-Stack software developer
             </p>
           </div>
           <div className="about-info-bio-second">
             <p className="about-info-bio-title">Contact</p>
             <p className="about-info-bio-des">
-              Warsaw, Poland <br />
-              hello@gmail.com <br />
-              +68 3548 98756
+              Duba, UAE <br />
+              Keflemariam@outlook <br />
+              +971 056 200 7622
             </p>
           </div>
           <div>
             <p className="about-info-bio-title">Services</p>
             <p className="about-info-bio-des">
-              Software Devlopment Web Development
+            Product Development, Implement Solutions
             </p>
           </div>
         </div>
@@ -41,16 +41,16 @@ const About = () => {
         </div>
         <div className="about-info-count">
           <div>
-            <p className="about-info-bio-title">Tears Of Experince</p>
-            <p className="about-info-count-number">8</p>
+            <p className="about-info-bio-title">Years Of Experience</p>
+            <p className="about-info-count-number">20+</p>
           </div>
           <div className="about-info-count-second">
-            <p className="about-info-bio-title"> Satisfitation Clients</p>
+            <p className="about-info-bio-title">Clients</p>
             <p className="about-info-count-number">100%</p>
           </div>
           <div>
-            <p className="about-info-bio-title">Projects Done</p>
-            <p className="about-info-count-number">120</p>
+            <p className="about-info-bio-title">Projects</p>
+            <p className="about-info-count-number">25</p>
           </div>
         </div>
       </div>
